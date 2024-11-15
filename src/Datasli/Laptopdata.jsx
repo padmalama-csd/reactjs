@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function LaptopData() {
   return (
     <div>
-      <h1>Laptop Devices Data</h1>
+      <h1>Laptop Device Data</h1>
       <div style={{display:'flex' , gap:'5%'}}>
         {laptops.slice(0, 4).map((laptop) => ( 
           <div key={laptop.id} style={{ border: '1px solid #ddd', padding: '15px', width: '200px', textAlign: 'center'}}>

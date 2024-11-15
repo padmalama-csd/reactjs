@@ -25,7 +25,7 @@ function App() {
     <CartProvider>
       <Router>
         <Routes>
-          <Route path="/react9306" element={<Login />} />
+          <Route path="/reactjs" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/mobiles" element={<Mobiles />} />
